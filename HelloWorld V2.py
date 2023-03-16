@@ -1,7 +1,7 @@
 import time
 import string
 
-Chars = list(string.ascii_letters + " ")
+Chars = list(" "+string.ascii_letters+"0"+"1"+"2"+"3"+"4"+"5"+"6"+"7"+"8"+"9")
 word = input("Enter the word you wish to find:\n")
 finishedwork = ""
 loopLen = len(word)
